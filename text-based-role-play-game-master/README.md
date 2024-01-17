@@ -1,25 +1,10 @@
-  > As you complete each section you **must** remove the prompt text. Every *turnin* of this project includes points for formatting of this README so keep it clean and keep it up to date. 
- > Prompt text is any lines beginning with "\>"
- > Replace anything between \<...\> with your project specifics and remove angle brackets. For example, you need to name your project and replace the header right below this line with that title (no angle brackets). 
 # Text-Based Role Playing Game 
-
  > ## Authors
  > *  Karanvir Chima(https://github.com/karanvirchima/karanvirchima.git)
  > *  Nikhil Sharma(https://github.com/nicktarma/nicktarma.git)
  > * Anushka Pandya(https://github.com/anushka107/anushka107.git)
  > * Neha Mathews(https://github.com/nmath018/nmath018.git)
  
- > You will be forming a group of **FOUR** students and working on an interesting project. The project has 4 phases, each one with specific requirements. A list of proposed project ideas that have been successful in previous quarters is listed in the project specifications document on Canvas. You can select an idea from the list, start thinking about the features you will implement, what design patterns can help you implement them, and why. If you want to propose your own original idea, you will have to contact an instructor to discuss the project and obtain written permission before you submit your project proposal (Phase 1). Your project needs to implement at least two design patterns iteratively, which you will have to justify for later phases.The project work should be divided almost equally among team members and each member is expected to work on at least one design pattern (more than one partner may work on a pattern) and some of its test cases. You can of course help each other, but it needs to be clear who will be responsible for which patterns and for which features. Additionally, you are expected to follow Scrum patterns, specifically the use of a Scrum (Project) board, Sprints, and Scrum meetings. While Daily Scrums are not required we highly recommend you practice them too.
- 
- > ## Expectations
- > * Incorporate **at least two** distinct design patterns. You need to include at least *one* design pattern that we will teach this session:
- >   * Composite, Strategy, Abstract Factory or Visitor
- > * All design patterns need to be linked together (it can't be two distinct projects)
- > * Your project should be implemented in C++. If you wish to choose anoher programming language (e.g. Java, Python), please discuss with your lab TA to obtain permission.
- > * You can incorporate additional technologies/tools but they must be approved (in writing) by the instructor or the TA.
- > * Each member of the group **must** be committing code regularly and make sure their code is correctly attributed to them. We will be checking attributions to determine if there was equal contribution to the project.
- > * Each member of the group must actively participate in the Github Project board and reviewing commited code.
-> * All project phases are to be submitted to this GitHub repository. You should modify this README file to reflect the different phases of the project. In addition, you should regularly hold sprint meetings with your group. You will need to hold one check-in meeting with your lab TA in addition to the final demo.
 
 ## Project Description
  > Description: 
@@ -106,17 +91,4 @@ Our Character class was the root of the inheritance hierarchy, with the hero and
 
 >The Factory Pattern came from the GameHandler class. A Factory Pattern creates objects of different types which is done here. In this case, the GameHandler created and handled interactions between Enemy/Boss objects and their hero counterparts. The only changes made are when creating new objects. It created these objects based on program state and user decisions. It helped us write better code by making the code more simplified and allows the subclasses to create objects of different types ( in this case different characters  as well as enemy and boss).
 
- > ## Final deliverable
- > All group members will give a demo to the TA during lab time. The TA will check the demo and the project GitHub repository and ask a few questions to all the team members. 
- > Before the demo, you should do the following:
- > * Complete the sections below (i.e. Screenshots, Installation/Usage, Testing)
- > * Plan one more sprint (that you will not necessarily complete before the end of the quarter). Your In-progress and In-testing columns should be empty (you are not doing more work currently) but your TODO column should have a full sprint plan in it as you have done before. This should include any known bugs (there should be some) or new features you would like to add. These should appear as issues/cards on your Project board.
- > * Make sure your README file and Project board are up-to-date reflecting the current status of your project (e.g. any changes that you have made during the project such as changes to your class diagram). Previous versions should still be visible through your commit history. 
- 
- ## Screenshots
- > Screenshots of the input/output after running your application
- ## Installation/Usage
- > Instructions on installing and running your application
- ## Testing
- > How was your project tested/validated? If you used CI, you should have a "build passing" badge in this README.
  
